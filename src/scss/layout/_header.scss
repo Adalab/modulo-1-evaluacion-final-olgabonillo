@@ -5,6 +5,14 @@
   background-size: cover;
 }
 
+.soccer-children {
+  width: 320px;
+  height: 552px;
+  flex-grow: 0;
+  padding: 0 4.5px 57.9px 0;
+  transform: rotate(-360deg);
+}
+
 .menu {
   background-color: #6c933e;
   width: 36.4px;
