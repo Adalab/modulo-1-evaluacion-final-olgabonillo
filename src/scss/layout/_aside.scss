@@ -46,5 +46,31 @@
     letter-spacing: normal;
     text-align: left;
     color: #4a4a4a;
-    
 }
+
+.go {
+    width: 103px;
+    height: 44px;
+    color: #6c933e;
+    padding: 12px;
+    font-size: 20px;
+    border: solid 2px #6c933e;
+    border-radius: 22.5px;
+    display: block;
+}
+
+.preparated {
+        width: 297px;
+        height: 22.1px;
+        flex-grow: 0;
+        margin: 0 0 37.8px 3px;
+        font-family: RobotoSlab;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(--brownish-grey);
+      }
