@@ -1,6 +1,8 @@
 .header {
-  display: inline;
+  display: block;
   background-image: url(/images/cover.jpeg);
+  background-position-x: -285px;
+  background-size: cover;
 }
 
 .menu {
@@ -15,10 +17,25 @@ flex-direction: row;
 }
 
 .title__first {
-  width: 315.5px;
-  height: 57.2px;
   margin: 260.2px 0 51.8px;
-  font-family: RobotoSlab;
+  font-family: Roboto Slab;
+  font-size: 30px;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+
+.title__second {
+  width: 243.3px;
+  height: 16px;
+  flex-grow: 0;
+  margin: 51.8px 38.1px 34px 34.2px;
+  transform: rotate(-0.23deg);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: normal;
   text-align: center;
   color: white;
 }
