@@ -1,1 +1,24 @@
+.header {
+  display: inline;
+  background-image: url(/images/cover.jpeg);
+}
 
+.menu {
+  background-color: #6c933e;
+  width: 36.4px;
+  height: 36.8px;
+  padding: 10px;
+}
+
+.futbol-children {
+flex-direction: row;
+}
+
+.title__first {
+  width: 315.5px;
+  height: 57.2px;
+  margin: 260.2px 0 51.8px;
+  font-family: RobotoSlab;
+  text-align: center;
+  color: white;
+}
