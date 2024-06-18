@@ -1,65 +1,14 @@
-.header {
-  display: block;
-  background-image: url(/images/cover.jpeg);
-  background-position-x: -285px;
-  background-size: cover;
-}
-
-.soccer-children {
-  width: 320px;
-  height: 552px;
-  flex-grow: 0;
-  padding: 0 4.5px 57.9px 0;
-  transform: rotate(-360deg);
-}
-
 .menu {
     background-color: #6c933e;
-    width: 36.4px;
-    height: 36.8px;
+    width: 36px;
+    height: 36px;
     padding: 10px;
-    position: sticky;
-    top: 0px;
-    left: 0px;
     display: block;
 }
-
-.futbol-children {
-flex-direction: row;
-}
-
-.title__first {
-    margin: 141.2px 0 51.8px;
-    font-family: Roboto Slab;
-    font-size: 30px;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: center;
-    color: white;
-}
-
-.title__second {
+.page__header {
+  position: sticky;
+  z-index: 99;
   display: inline-block;
-  margin: 51.8px 38.1px 34px 34.2px;
-  transform: rotate(-0.23deg);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.19;
-  letter-spacing: normal;
-  text-align: center;
-  color: white;
+  top: 0;
+  left: 0;
 }
-
-.rectangle-3 {
-    width: 38.2px;
-    height: 38.2px;
-    flex-grow: 0;
-    margin: 34px 145px 0 95.9px;
-    padding: 15.2px 10.2px 13px 11px;
-    transform: rotate(-0.23deg);
-    border-radius: 22.5px;
-    background-color: white;
-  }
