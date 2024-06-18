@@ -14,10 +14,14 @@
 }
 
 .menu {
-  background-color: #6c933e;
-  width: 36.4px;
-  height: 36.8px;
-  padding: 10px;
+    background-color: #6c933e;
+    width: 36.4px;
+    height: 36.8px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: block;
 }
 
 .futbol-children {
