@@ -2,6 +2,7 @@
     background-image: url(/images/cover.jpeg);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
     display: flex;
     z-index: 1;
     margin-top: -42px;
@@ -48,14 +49,55 @@
   padding: 10px;
   }
 
-  @media all and (min-width: 768) {
+@media all and (min-width: 768px) {
+  .hero {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .arrow {
+    position: inherit;
+    margin: 20px auto;
+  }
+    .title__first {
+      font-size: 68px;
+      line-height: 1.20;
+      font-weight: 600;
+      letter-spacing: normal;
+    }
+
+    .title__second {
+      padding: 10px 235px;
+      font-size: 25px;
+      font-weight: 300;
+    }
+  }
+
+
+@media all and (min-width: 1024) {
+    
     .title__first {
     font-family: Roboto Slab;
-    font-size: 90px;
+    font-size: 120px;
     line-height: 1.67;
+    font-weight: bold;
     letter-spacing: normal;
     text-align: center;
     color: white;
     font-weight: normal;
+    }
+
+    .title__second {
+      display: inline-block;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 87px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.19;
+      letter-spacing: normal;
+      text-align: center;
+      color: white;
+      font-weight: 100;
+      padding: 10px 37px;
+    }
   }
-}
