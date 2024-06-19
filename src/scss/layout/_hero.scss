@@ -47,3 +47,15 @@
   margin: 0 auto;
   padding: 10px;
   }
+
+  @media all and (min-width: 768) {
+    .title__first {
+    font-family: Roboto Slab;
+    font-size: 90px;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+}
