@@ -52,7 +52,6 @@
 @media all and (min-width: 768px) {
   .hero {
     justify-content: flex-end;
-    align-items: flex-end;
   }
   .arrow {
     position: inherit;
@@ -74,7 +73,13 @@
 
 
 @media all and (min-width: 1024px) {
-    
+  .hero {
+    justify-content: flex-end;
+  }
+  .arrow {
+    position: inherit;
+    margin: 20px auto;
+  }
     .title__first {
       font-size: 85px;
     }
